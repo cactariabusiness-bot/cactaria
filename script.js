@@ -246,7 +246,7 @@ function openModal(index) {
   // Botón comprar (WhatsApp)
   modalBuy.onclick = () => {
     const text = `Hola, quiero comprar ${p.name}`;
-    window.open(`https://wa.me/72044544?text=${encodeURIComponent(text)}`, "_blank");
+    window.open(`https://wa.me/68386911?text=${encodeURIComponent(text)}`, "_blank");
   };
 
   // Mostrar
@@ -277,4 +277,5 @@ window.addEventListener("scroll", () => {
     header.classList.remove("scrolled");
     heroText?.classList.remove("hidden");
   }
+
 });
